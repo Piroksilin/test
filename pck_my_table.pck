@@ -1,7 +1,7 @@
 create or replace package pck_my_table is
 
   procedure clear_table(p_table_name varchar2);
-  function get_prostoy_num return boolean;
+
 
 end pck_my_table;
 /
@@ -20,15 +20,6 @@ procedure clear_table(p_table_name varchar2) Is
     dbms_output.put_line(removal_count_out);
   end;
 
--- получение простого числа
-Function get_prostoy_num return boolean is
-  l_a boolean :=True;
-begin
-  --dbms_output.put_line(sys.diutil.bool_to_int(l_a));
-  
-  
-  return l_a;
-end;
 
 
 
