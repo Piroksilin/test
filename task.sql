@@ -20,5 +20,5 @@ declare
 a boolean;
 BEGIN
 --       pck_my_table.clear_table('numnum');
-         a:=pck_my_table.get_prostoy_num;
+         a:=pck_.get_prostoy_num;
 END;

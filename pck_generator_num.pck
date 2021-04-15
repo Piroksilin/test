@@ -25,8 +25,11 @@ create or replace package body pck_generator_num is
 -- получение простого числа
 Function get_prostoy_num return boolean is
   l_a boolean :=True;
+  n_first:=2;
 begin
-  --dbms_output.put_line(sys.diutil.bool_to_int(l_a));
+  dbms_output.put_line(sys.diutil.bool_to_int(l_a));
+  
+  --for i
   
   
   return l_a;
