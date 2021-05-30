@@ -23,3 +23,4 @@ BEGIN
          a:=pck_generator_num.get_prostoy_num;
 END;
 
+/*123*/
